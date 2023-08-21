@@ -2,7 +2,11 @@ import './App.css'
 import MediumClap from './components/MediumClap'
 
 function App() {
-  return <MediumClap />
+  return (
+    <div className='wrapper'>
+      <MediumClap />
+    </div>
+  )
 }
 
 export default App
